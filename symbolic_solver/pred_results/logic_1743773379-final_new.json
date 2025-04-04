@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "pid": 2401,
+      "target": "None",
+      "guess": null,
+      "correctness": "no",
+      "steps": 0,
+      "step_lst": [],
+      "time": 1.58
+    },
+    {
+      "pid": 2402,
+      "target": "None",
+      "guess": null,
+      "correctness": "no",
+      "steps": 0,
+      "step_lst": [],
+      "time": 1.55
+    },
+    {
+      "pid": 2403,
+      "target": "None",
+      "guess": null,
+      "correctness": "no",
+      "steps": 0,
+      "step_lst": [],
+      "time": 1.56
+    },
+    {
+      "pid": 2404,
+      "target": "None",
+      "guess": null,
+      "correctness": "no",
+      "steps": 0,
+      "step_lst": [],
+      "time": 1.53
+    }
+  ],
+  "test_list": [
+    2401,
+    2402,
+    2403,
+    2404
+  ],
+  "solved_list": [],
+  "solved_correct_list": [],
+  "solved_wrong_list": [],
+  "unsolved_list": [
+    2401,
+    2402,
+    2403,
+    2404
+  ],
+  "avg_solve_time": 6.22,
+  "avg_solved_time": 0.0,
+  "avg_solve_step": 0.0,
+  "avg_solved_step": 0.0,
+  "real_time": 7,
+  "problem_data_version": "../data/geometry3k",
+  "text_logic_version": "../text_parser/text_logic_forms.json",
+  "diagram_logic_version": "../diagram_parser/diagram_logic_forms.json"
+}

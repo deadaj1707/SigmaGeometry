@@ -1,0 +1,3514 @@
+{
+  "2401": {
+    "log": [
+      "Can not find the corresponding right angle:(84.49342105263158, 158.78382581648523, 122.98026315789474, 192.1430793157076, 'perpendicular')"
+    ],
+    "point_instances": [
+      "A",
+      "B",
+      "C"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "BC"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(B, C)), 10)",
+      "Equals(LengthOf(Line(A, C)), 13)",
+      "Equals(LengthOf(Line(A, B)), 13)"
+    ],
+    "point_positions": {
+      "A": [
+        93.49910873440285,
+        1.3333333333333428
+      ],
+      "B": [
+        0.0,
+        188.0
+      ],
+      "C": [
+        185.00707333581187,
+        185.34038760355003
+      ]
+    }
+  },
+  "2402": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "X"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "AX",
+      "BX",
+      "CD",
+      "CX",
+      "XD"
+    ],
+    "circle_instances": [
+      "A"
+    ],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(X, A), Line(X, C))",
+      "Equals(LengthOf(Line(A, X)), 0)",
+      "PointLiesOnLine(X, Line(A, B))",
+      "PointLiesOnLine(X, Line(C, D))",
+      "PointLiesOnCircle(B, Circle(A, radius_0_0))",
+      "PointLiesOnCircle(C, Circle(A, radius_0_0))",
+      "PointLiesOnCircle(D, Circle(A, radius_0_0))"
+    ],
+    "point_positions": {
+      "A": [
+        87.5,
+        92.5
+      ],
+      "B": [
+        126.80251926984656,
+        11.366450014350846
+      ],
+      "C": [
+        39.910705230227705,
+        16.934733493924348
+      ],
+      "D": [
+        175.7278414392231,
+        83.37764904940411
+      ],
+      "X": [
+        108.10133053753833,
+        49.382905107093094
+      ]
+    }
+  },
+  "2403": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "AD",
+      "BC",
+      "BD",
+      "BE",
+      "CD",
+      "CE",
+      "EF"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(A, B), Line(A, C))",
+      "Equals(LengthOf(Line(E, F)), LengthOf(Line(B, D)))",
+      "Equals(LengthOf(Line(A, B)), y)",
+      "Equals(LengthOf(Line(E, F)), 32)",
+      "Equals(MeasureOf(Angle(C, D, B)), 54)",
+      "Equals(LengthOf(Line(A, C)), x)",
+      "PointLiesOnLine(A, Line(C, D))"
+    ],
+    "point_positions": {
+      "A": [
+        102.98380258723773,
+        137.25491901293617
+      ],
+      "B": [
+        100.57389429502618,
+        1.072318446876622
+      ],
+      "C": [
+        0.82907909727777,
+        136.66747872881973
+      ],
+      "D": [
+        201.0,
+        137.0
+      ],
+      "E": [
+        55.853620955315876,
+        71.77503852080123
+      ],
+      "F": [
+        42.0,
+        61.0
+      ]
+    }
+  },
+  "2404": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "N",
+      "E",
+      "F",
+      "G",
+      "M",
+      "T",
+      "point_10"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "AN",
+      "AE",
+      "AM",
+      "AT",
+      "Apoint_10",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BM",
+      "BT",
+      "Bpoint_10",
+      "CE",
+      "ND",
+      "NF",
+      "NG",
+      "NT",
+      "EF",
+      "EM",
+      "Epoint_10",
+      "MD",
+      "MF",
+      "MG",
+      "MT",
+      "Mpoint_10",
+      "TD",
+      "TF",
+      "TG",
+      "Tpoint_10",
+      "point_10D",
+      "point_10F",
+      "point_10G",
+      "DF",
+      "DG",
+      "FG"
+    ],
+    "circle_instances": [
+      "M"
+    ],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(E, A), Line(E, point_10))",
+      "Perpendicular(Line(F, D), Line(F, E))",
+      "Equals(LengthOf(Line(M, F)), LengthOf(Line(E, M)))",
+      "Equals(MeasureOf(Angle(F, B, G)), 28)",
+      "PointLiesOnLine(E, Line(A, C))",
+      "PointLiesOnLine(D, Line(A, T))",
+      "PointLiesOnLine(D, Line(B, T))",
+      "PointLiesOnLine(F, Line(N, D))",
+      "PointLiesOnLine(G, Line(N, D))",
+      "PointLiesOnLine(F, Line(N, G))",
+      "PointLiesOnLine(F, Line(N, T))",
+      "PointLiesOnLine(B, Line(M, D))",
+      "PointLiesOnLine(B, Line(M, T))",
+      "PointLiesOnLine(D, Line(M, T))",
+      "PointLiesOnLine(G, Line(D, F))",
+      "PointLiesOnCircle(A, Circle(M, radius_8_0))",
+      "PointLiesOnCircle(C, Circle(M, radius_8_0))",
+      "PointLiesOnCircle(N, Circle(M, radius_8_0))",
+      "PointLiesOnCircle(T, Circle(M, radius_8_0))"
+    ],
+    "point_positions": {
+      "A": [
+        173.76613410088106,
+        62.2426457634364
+      ],
+      "B": [
+        79.67871401554949,
+        95.4817188484976
+      ],
+      "C": [
+        18.55286281965128,
+        32.504269198943476
+      ],
+      "D": [
+        33.675097333753484,
+        144.66233030799367
+      ],
+      "N": [
+        177.28536051449265,
+        107.05131306193604
+      ],
+      "E": [
+        94.93197990791126,
+        46.78903306822939
+      ],
+      "F": [
+        101.89037309995393,
+        128.71027176416396
+      ],
+      "G": [
+        68.0,
+        135.0
+      ],
+      "M": [
+        89.78881975761908,
+        87.85323691090944
+      ],
+      "T": [
+        25.09755559280694,
+        152.07044195430555
+      ],
+      "null": [
+        90.2357071213641,
+        101.26579739217652
+      ]
+    }
+  },
+  "2405": {
+    "log": [],
+    "point_instances": [
+      "D",
+      "E",
+      "point_2",
+      "F",
+      "C",
+      "G",
+      "B",
+      "H",
+      "A",
+      "point_9",
+      "I",
+      "J"
+    ],
+    "line_instances": [
+      "DC",
+      "DH",
+      "DA",
+      "Dpoint_9",
+      "DI",
+      "DJ",
+      "CF",
+      "CB",
+      "Cpoint_9",
+      "CI",
+      "CJ",
+      "HB",
+      "HA",
+      "AE",
+      "Apoint_2",
+      "AG",
+      "AB",
+      "point_9I",
+      "point_9J",
+      "IJ",
+      "Epoint_2",
+      "EG",
+      "point_2G",
+      "FB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Parallel(Line(E, G), Line(I, J))",
+      "Equals(LengthOf(Line(D, J)), m)",
+      "Equals(LengthOf(Line(A, G)), l)",
+      "Equals(MeasureOf(Angle(B, A, G)), 38)",
+      "Equals(MeasureOf(Angle(J, C, B)), 33)",
+      "PointLiesOnLine(B, Line(D, H))",
+      "PointLiesOnLine(A, Line(D, H))",
+      "PointLiesOnLine(B, Line(D, A))",
+      "PointLiesOnLine(C, Line(D, I))",
+      "PointLiesOnLine(D, Line(C, J))",
+      "PointLiesOnLine(A, Line(H, B))",
+      "PointLiesOnLine(D, Line(I, J))",
+      "PointLiesOnLine(C, Line(I, J))",
+      "PointLiesOnLine(A, Line(E, G))",
+      "PointLiesOnLine(C, Line(F, B))"
+    ],
+    "point_positions": {
+      "D": [
+        32.05714285714285,
+        241.6457142857143
+      ],
+      "E": [
+        442.0,
+        89.0
+      ],
+      "null": [
+        97.66666666666667,
+        243.33333333333331
+      ],
+      "F": [
+        396.0,
+        329.0
+      ],
+      "C": [
+        233.80392156862746,
+        241.0
+      ],
+      "G": [
+        0.5009107468124228,
+        88.99635701275047
+      ],
+      "B": [
+        114.78492602262838,
+        176.57834638816362
+      ],
+      "H": [
+        352.0,
+        0.0
+      ],
+      "A": [
+        232.83050847457628,
+        89.0
+      ],
+      "I": [
+        442.0,
+        241.0
+      ],
+      "J": [
+        4.5,
+        240.5
+      ]
+    }
+  },
+  "2406": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K"
+    ],
+    "line_instances": [
+      "AE",
+      "AI",
+      "EC",
+      "ED",
+      "EI",
+      "EJ",
+      "IB",
+      "IH",
+      "IK",
+      "BD",
+      "BF",
+      "BG",
+      "BH",
+      "BK",
+      "DC",
+      "DF",
+      "DG",
+      "DJ",
+      "DK",
+      "FG",
+      "FK",
+      "GK",
+      "HK",
+      "CJ"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(A, I, H)), x+10))",
+      "Equals(MeasureOf(Angle(G, D, E)), x-1))",
+      "Equals(MeasureOf(Angle(H, K, D)), 2x)",
+      "Equals(MeasureOf(Angle(C, E, I)), 79)",
+      "PointLiesOnLine(I, Line(A, E))",
+      "PointLiesOnLine(C, Line(E, J))",
+      "PointLiesOnLine(K, Line(I, B))",
+      "PointLiesOnLine(B, Line(I, H))",
+      "PointLiesOnLine(K, Line(I, H))",
+      "PointLiesOnLine(D, Line(B, G))",
+      "PointLiesOnLine(E, Line(D, C))",
+      "PointLiesOnLine(C, Line(D, J))",
+      "PointLiesOnLine(E, Line(D, J))",
+      "PointLiesOnLine(F, Line(D, K))",
+      "PointLiesOnLine(D, Line(F, G))",
+      "PointLiesOnLine(D, Line(G, K))",
+      "PointLiesOnLine(F, Line(G, K))",
+      "PointLiesOnLine(B, Line(H, K))"
+    ],
+    "point_positions": {
+      "A": [
+        235.0,
+        8.0
+      ],
+      "B": [
+        366.8926239201975,
+        198.8546637186343
+      ],
+      "C": [
+        43.0,
+        21.0
+      ],
+      "D": [
+        116.58860482103725,
+        194.02293644996348
+      ],
+      "E": [
+        80.0295670538543,
+        110.3202217529039
+      ],
+      "F": [
+        258.8360248447205,
+        191.4024844720497
+      ],
+      "G": [
+        2.0,
+        194.0
+      ],
+      "H": [
+        423.5,
+        253.0
+      ],
+      "I": [
+        195.73562822126075,
+        32.71942495647528
+      ],
+      "J": [
+        33.858974358974365,
+        0.10256410256411641
+      ],
+      "K": [
+        357.27494819666117,
+        190.13298011502053
+      ]
+    }
+  },
+  "2407": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N"
+    ],
+    "line_instances": [
+      "AE",
+      "AG",
+      "AH",
+      "AJ",
+      "EG",
+      "GB",
+      "GI",
+      "GL",
+      "GN",
+      "HD",
+      "HF",
+      "HJ",
+      "HM",
+      "BC",
+      "BF",
+      "BI",
+      "BK",
+      "BL",
+      "BN",
+      "CF",
+      "CK",
+      "FD",
+      "FK",
+      "FM",
+      "IL",
+      "IN",
+      "LN",
+      "DM"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(D, F, K)), x+4))",
+      "Equals(MeasureOf(Angle(G, A, J)), x-6))",
+      "Equals(MeasureOf(Angle(A, H, M)), x)",
+      "Equals(MeasureOf(Angle(F, B, L)), 56)",
+      "Equals(MeasureOf(Angle(I, G, E)), x+10))",
+      "PointLiesOnLine(G, Line(A, E))",
+      "PointLiesOnLine(N, Line(G, B))",
+      "PointLiesOnLine(B, Line(G, I))",
+      "PointLiesOnLine(N, Line(G, I))",
+      "PointLiesOnLine(B, Line(G, L))",
+      "PointLiesOnLine(I, Line(G, L))",
+      "PointLiesOnLine(N, Line(G, L))",
+      "PointLiesOnLine(A, Line(H, J))",
+      "PointLiesOnLine(D, Line(H, M))",
+      "PointLiesOnLine(F, Line(B, C))",
+      "PointLiesOnLine(K, Line(B, C))",
+      "PointLiesOnLine(F, Line(B, K))",
+      "PointLiesOnLine(I, Line(B, L))",
+      "PointLiesOnLine(K, Line(C, F))",
+      "PointLiesOnLine(H, Line(F, D))",
+      "PointLiesOnLine(D, Line(F, M))",
+      "PointLiesOnLine(H, Line(F, M))",
+      "PointLiesOnLine(B, Line(I, N))",
+      "PointLiesOnLine(B, Line(L, N))",
+      "PointLiesOnLine(I, Line(L, N))"
+    ],
+    "point_positions": {
+      "A": [
+        132.68969294031743,
+        267.99725221936126
+      ],
+      "B": [
+        333.58705986814704,
+        140.7247065787647
+      ],
+      "C": [
+        124.0,
+        1.0
+      ],
+      "D": [
+        18.5,
+        174.5
+      ],
+      "E": [
+        383.0,
+        267.0
+      ],
+      "F": [
+        213.60233516483515,
+        60.2348901098901
+      ],
+      "G": [
+        283.32253024512806,
+        268.1979182061947
+      ],
+      "H": [
+        80.1900646642896,
+        138.46286335891702
+      ],
+      "I": [
+        359.0,
+        80.0
+      ],
+      "J": [
+        165.0,
+        345.0
+      ],
+      "K": [
+        140.0,
+        15.0
+      ],
+      "L": [
+        365.0,
+        63.0
+      ],
+      "M": [
+        0.0,
+        188.0
+      ],
+      "N": [
+        326.0,
+        155.0
+      ]
+    }
+  },
+  "2408": {
+    "log": [
+      "Can not find the corresponding parallel lines:(67.97246696035242, 118.83388157894734, 113.37885462555064, 162.58059210526315, 'parallel')"
+    ],
+    "point_instances": [
+      "Y",
+      "M",
+      "point_2",
+      "Z",
+      "point_4",
+      "A",
+      "point_6"
+    ],
+    "line_instances": [
+      "YM",
+      "Ypoint_2",
+      "YZ",
+      "Ypoint_4",
+      "YA",
+      "Ypoint_6",
+      "MZ",
+      "point_2Z",
+      "point_2point_4",
+      "point_2A",
+      "point_2point_6",
+      "Zpoint_4",
+      "ZA",
+      "Zpoint_6",
+      "point_4A",
+      "point_4point_6",
+      "Apoint_6"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(M, Z)), n)",
+      "PointLiesOnLine(A, Line(Y, Z))"
+    ],
+    "point_positions": {
+      "Y": [
+        209.3172000064135,
+        1.3397371377874236
+      ],
+      "M": [
+        1.8394403730846136,
+        165.6697757050855
+      ],
+      "null": [
+        245.5,
+        90.0
+      ],
+      "Z": [
+        270.87018339171647,
+        166.33285253108042
+      ],
+      "A": [
+        217.5128205128205,
+        22.538461538461533
+      ]
+    }
+  },
+  "2409": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "point_3",
+      "point_4"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "BC",
+      "Bpoint_3",
+      "Bpoint_4",
+      "Cpoint_3",
+      "point_3point_4"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(B, A), Line(B, C))",
+      "Equals(LengthOf(Line(A, B)), y)",
+      "Equals(MeasureOf(Angle(B, C, A)), 60)",
+      "Equals(LengthOf(Line(B, C)), 21)",
+      "Equals(LengthOf(Line(A, C)), x)",
+      "Equals(MeasureOf(Angle(C, A, B)), 30)"
+    ],
+    "point_positions": {
+      "A": [
+        0.9681032687903439,
+        1.205912971059746
+      ],
+      "B": [
+        76.06045424181697,
+        218.5434201736807
+      ],
+      "C": [
+        206.28674040780763,
+        176.5769234855971
+      ],
+      "null": [
+        87.0,
+        193.0
+      ]
+    }
+  },
+  "2410": {
+    "log": [],
+    "point_instances": [
+      "E",
+      "F",
+      "G",
+      "A",
+      "D",
+      "B",
+      "C",
+      "point_7",
+      "point_8",
+      "H"
+    ],
+    "line_instances": [
+      "EG",
+      "EA",
+      "ED",
+      "EB",
+      "Epoint_7",
+      "EH",
+      "GD",
+      "Gpoint_7",
+      "GH",
+      "AD",
+      "AB",
+      "AC",
+      "DC",
+      "Dpoint_7",
+      "DH",
+      "BF",
+      "BC",
+      "Bpoint_8",
+      "point_7H",
+      "FC",
+      "Fpoint_8",
+      "Cpoint_8"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Parallel(Line(B, C), Line(E, D))",
+      "PointLiesOnLine(B, Line(E, A))",
+      "PointLiesOnLine(G, Line(E, D))",
+      "PointLiesOnLine(H, Line(E, D))",
+      "PointLiesOnLine(G, Line(E, H))",
+      "PointLiesOnLine(H, Line(G, D))",
+      "PointLiesOnLine(C, Line(A, D))",
+      "PointLiesOnLine(F, Line(B, C))"
+    ],
+    "point_positions": {
+      "E": [
+        180.66809876287593,
+        165.15609848680919
+      ],
+      "F": [
+        87.36236500947086,
+        59.840249932350986
+      ],
+      "G": [
+        180.0,
+        56.0
+      ],
+      "A": [
+        1.36738805046312,
+        82.34921278008486
+      ],
+      "D": [
+        180.35420759172172,
+        0.8082227116693446
+      ],
+      "B": [
+        89.9755785886696,
+        123.50546642055943
+      ],
+      "C": [
+        87.14138639186757,
+        42.901218793266
+      ],
+      "null": [
+        87.5,
+        91.0
+      ],
+      "H": [
+        180.990625,
+        22.16171875
+      ]
+    }
+  },
+  "2411": {
+    "log": [
+      "The distances is empty, but there is: 20 line"
+    ],
+    "point_instances": [
+      "A",
+      "B",
+      "C"
+    ],
+    "line_instances": [],
+    "circle_instances": [
+      "A",
+      "B",
+      "C"
+    ],
+    "diagram_logic_forms": [
+      "PointLiesOnCircle(C, Circle(A, radius_0_0))",
+      "PointLiesOnCircle(C, Circle(B, radius_1_0))"
+    ],
+    "point_positions": {
+      "A": [
+        98.5,
+        150.5
+      ],
+      "B": [
+        98.5,
+        51.5
+      ],
+      "C": [
+        101.5,
+        100.5
+      ]
+    }
+  },
+  "2412": {
+    "log": [],
+    "point_instances": [
+      "M",
+      "L",
+      "P",
+      "R",
+      "J",
+      "K",
+      "A"
+    ],
+    "line_instances": [
+      "ML",
+      "MP",
+      "MR",
+      "MJ",
+      "MK",
+      "LP",
+      "LK",
+      "LA",
+      "PR",
+      "PA",
+      "JK",
+      "KA"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "PointLiesOnLine(A, Line(L, K))",
+      "PointLiesOnLine(L, Line(P, A))"
+    ],
+    "point_positions": {
+      "M": [
+        34.39600943629242,
+        53.91097076019147
+      ],
+      "L": [
+        140.39180625429321,
+        56.3735043652107
+      ],
+      "P": [
+        108.08941457576714,
+        160.38176148950612
+      ],
+      "R": [
+        0.305281860765632,
+        160.00565336779198
+      ],
+      "J": [
+        34.666366140746305,
+        0.009166040571003009
+      ],
+      "K": [
+        142.3469087998113,
+        1.8197229959012446
+      ],
+      "A": [
+        143.0,
+        43.0
+      ]
+    }
+  },
+  "2413": {
+    "log": [],
+    "point_instances": [
+      "C",
+      "D",
+      "A",
+      "B",
+      "E"
+    ],
+    "line_instances": [
+      "CD",
+      "CA",
+      "CB",
+      "CE",
+      "DA",
+      "DB",
+      "DE",
+      "AB",
+      "AE",
+      "BE"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(C, B)), 6)",
+      "PointLiesOnLine(E, Line(C, A))",
+      "PointLiesOnLine(E, Line(D, B))"
+    ],
+    "point_positions": {
+      "C": [
+        108.93626531877501,
+        2.1233798161503543
+      ],
+      "D": [
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "A": [
+        56.47806377949431,
+        95.7278928503873
+      ],
+      "B": [
+        164.6391366906475,
+        95.99223021582733
+      ],
+      "E": [
+        83.12838323353293,
+        47.861796407185636
+      ]
+    }
+  },
+  "2414": {
+    "log": [
+      "Can not find the corresponding right angle:(67.60690789473685, -4.274647887323944, 106.43585526315789, 27.450704225352112, 'perpendicular')"
+    ],
+    "point_instances": [
+      "point_0",
+      "A",
+      "F",
+      "D",
+      "C",
+      "B",
+      "point_6",
+      "E",
+      "point_8",
+      "point_9",
+      "G"
+    ],
+    "line_instances": [
+      "point_0D",
+      "point_0C",
+      "point_0point_8",
+      "point_0G",
+      "DA",
+      "DC",
+      "DE",
+      "Dpoint_8",
+      "DG",
+      "CA",
+      "CB",
+      "Cpoint_8",
+      "CG",
+      "point_8point_6",
+      "point_8G",
+      "GA",
+      "GE",
+      "AF",
+      "AB",
+      "AE",
+      "FB",
+      "Fpoint_6",
+      "FE",
+      "Fpoint_9",
+      "Bpoint_6",
+      "BE",
+      "Bpoint_9",
+      "Epoint_6",
+      "Epoint_9",
+      "point_6point_9"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Parallel(Line(D, C), Line(B, E))",
+      "PointLiesOnLine(E, Line(D, A))",
+      "PointLiesOnLine(G, Line(D, C))",
+      "PointLiesOnLine(B, Line(C, A))",
+      "PointLiesOnLine(F, Line(B, E))"
+    ],
+    "point_positions": {
+      "null": [
+        63.0,
+        70.0
+      ],
+      "A": [
+        0.0,
+        174.0
+      ],
+      "F": [
+        82.0,
+        74.0
+      ],
+      "D": [
+        151.32160313671847,
+        19.685771614626734
+      ],
+      "C": [
+        26.317340441285353,
+        5.100103657633646
+      ],
+      "B": [
+        16.607798165137616,
+        66.12155963302752
+      ],
+      "E": [
+        97.31755663430421,
+        74.90250809061489
+      ],
+      "G": [
+        137.96842105263158,
+        18.28421052631579
+      ]
+    }
+  },
+  "2415": {
+    "log": [],
+    "point_instances": [
+      "N",
+      "M",
+      "P",
+      "R",
+      "Q"
+    ],
+    "line_instances": [
+      "NM",
+      "NP",
+      "NR",
+      "NQ",
+      "MP",
+      "MR",
+      "MQ",
+      "PR",
+      "PQ",
+      "RQ"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(P, Q)), 11.1)",
+      "Equals(LengthOf(Line(M, P)), 3z-3)",
+      "Equals(LengthOf(Line(M, R)), 17.9)",
+      "Equals(LengthOf(Line(N, P)), 2y+5)",
+      "Equals(MeasureOf(Angle(R, N, M)), 33)",
+      "Equals(LengthOf(Line(N, Q)), 15.4)",
+      "Equals(LengthOf(Line(P, R)), 20)",
+      "Equals(LengthOf(Line(N, M)), 4w-3)",
+      "Equals(MeasureOf(Angle(N, Q, P)), 83)",
+      "Equals(LengthOf(Line(N, M)), 3x-4)",
+      "Equals(MeasureOf(Angle(M, R, N)), 38)",
+      "PointLiesOnLine(Q, Line(N, R))",
+      "PointLiesOnLine(Q, Line(M, P))"
+    ],
+    "point_positions": {
+      "N": [
+        262.3315529328006,
+        0.4983339048603028
+      ],
+      "M": [
+        63.89122957358269,
+        1.2777829351580436
+      ],
+      "P": [
+        196.33264702614332,
+        166.99662953043506
+      ],
+      "R": [
+        0.32610416694600985,
+        166.50164699074213
+      ],
+      "Q": [
+        130.00506329113924,
+        84.63037974683544
+      ]
+    }
+  },
+  "2416": {
+    "log": [],
+    "point_instances": [
+      "point_0",
+      "point_1",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "point_12",
+      "K",
+      "L"
+    ],
+    "line_instances": [
+      "point_0B",
+      "point_0C",
+      "point_0H",
+      "point_0I",
+      "point_0point_12",
+      "point_0K",
+      "BC",
+      "BG",
+      "BH",
+      "BI",
+      "Bpoint_12",
+      "BK",
+      "CH",
+      "CI",
+      "Cpoint_12",
+      "CK",
+      "HI",
+      "Hpoint_12",
+      "HK",
+      "ID",
+      "IE",
+      "IG",
+      "Ipoint_12",
+      "IK",
+      "point_12K",
+      "point_1A",
+      "point_1D",
+      "point_1F",
+      "point_1J",
+      "point_1L",
+      "AD",
+      "AF",
+      "AJ",
+      "AL",
+      "DE",
+      "DF",
+      "DG",
+      "DJ",
+      "DL",
+      "FJ",
+      "FL",
+      "JL",
+      "GE"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Parallel(Line(C, K), Line(A, F))",
+      "Equals(MeasureOf(Angle(L, D, G)), 25y-20))",
+      "Equals(MeasureOf(Angle(L, D, G)), 8y+2))",
+      "Equals(MeasureOf(Angle(I, D, J)), 10x)",
+      "PointLiesOnLine(I, Line(B, C))",
+      "PointLiesOnLine(H, Line(B, K))",
+      "PointLiesOnLine(B, Line(C, H))",
+      "PointLiesOnLine(I, Line(C, H))",
+      "PointLiesOnLine(B, Line(C, K))",
+      "PointLiesOnLine(H, Line(C, K))",
+      "PointLiesOnLine(I, Line(C, K))",
+      "PointLiesOnLine(B, Line(H, I))",
+      "PointLiesOnLine(B, Line(I, K))",
+      "PointLiesOnLine(H, Line(I, K))",
+      "PointLiesOnLine(D, Line(A, F))",
+      "PointLiesOnLine(L, Line(A, F))",
+      "PointLiesOnLine(D, Line(A, L))",
+      "PointLiesOnLine(L, Line(D, F))",
+      "PointLiesOnLine(I, Line(D, G))",
+      "PointLiesOnLine(D, Line(J, L))",
+      "PointLiesOnLine(I, Line(G, E))"
+    ],
+    "point_positions": {
+      "null": [
+        333.5,
+        72.0
+      ],
+      "A": [
+        2.9319213313161754,
+        106.20625315179021
+      ],
+      "B": [
+        258.86004784689,
+        107.622009569378
+      ],
+      "C": [
+        159.0,
+        159.0
+      ],
+      "D": [
+        105.59191282179071,
+        55.24625735590101
+      ],
+      "E": [
+        0.0,
+        14.0
+      ],
+      "F": [
+        214.46262093227793,
+        3.5162708883025573
+      ],
+      "G": [
+        331.0,
+        161.0
+      ],
+      "H": [
+        356.06046511627903,
+        62.163953488372094
+      ],
+      "I": [
+        237.08944793850455,
+        119.29350104821802
+      ],
+      "J": [
+        24.0,
+        103.0
+      ],
+      "K": [
+        369.0,
+        54.0
+      ],
+      "L": [
+        123.64904862579282,
+        46.899577167019025
+      ]
+    }
+  },
+  "2417": {
+    "log": [],
+    "point_instances": [
+      "S",
+      "A",
+      "Q",
+      "R",
+      "T",
+      "P",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "line_instances": [
+      "SA",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "AQ",
+      "AR",
+      "AT",
+      "AP",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "BQ",
+      "BC",
+      "BD",
+      "BE",
+      "CQ",
+      "CT",
+      "CP",
+      "CD",
+      "CE",
+      "DQ",
+      "DR",
+      "DT",
+      "DP",
+      "DE",
+      "EQ",
+      "ER",
+      "ET",
+      "EP",
+      "RT",
+      "RP",
+      "TP"
+    ],
+    "circle_instances": [
+      "A"
+    ],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(T, D, Q)), 112)",
+      "Equals(MeasureOf(Angle(P, C, B)), 130)",
+      "PointLiesOnLine(B, Line(S, A))",
+      "PointLiesOnLine(B, Line(S, C))",
+      "PointLiesOnLine(B, Line(S, D))",
+      "PointLiesOnLine(C, Line(S, D))",
+      "PointLiesOnLine(E, Line(S, D))",
+      "PointLiesOnLine(C, Line(S, E))",
+      "PointLiesOnLine(P, Line(A, R))",
+      "PointLiesOnLine(E, Line(A, T))",
+      "PointLiesOnLine(C, Line(B, Q))",
+      "PointLiesOnLine(C, Line(B, D))",
+      "PointLiesOnLine(E, Line(B, D))",
+      "PointLiesOnLine(C, Line(B, E))",
+      "PointLiesOnLine(E, Line(C, Q))",
+      "PointLiesOnLine(E, Line(C, D))",
+      "PointLiesOnLine(P, Line(D, R))",
+      "PointLiesOnLine(A, Line(E, R))",
+      "PointLiesOnLine(P, Line(E, R))",
+      "PointLiesOnLine(A, Line(E, P))",
+      "PointLiesOnLine(A, Line(R, T))",
+      "PointLiesOnLine(P, Line(R, T))",
+      "PointLiesOnLine(E, Line(R, T))",
+      "PointLiesOnCircle(S, Circle(A, radius_1_0))",
+      "PointLiesOnCircle(Q, Circle(A, radius_1_0))",
+      "PointLiesOnCircle(R, Circle(A, radius_1_0))",
+      "PointLiesOnCircle(T, Circle(A, radius_1_0))"
+    ],
+    "point_positions": {
+      "S": [
+        290.0803522673543,
+        221.55411019023236
+      ],
+      "A": [
+        154.75,
+        149.25
+      ],
+      "Q": [
+        3.4314643276327956,
+        133.31642343989742
+      ],
+      "R": [
+        118.18216102054058,
+        4.723584053813994
+      ],
+      "T": [
+        188.49858641862247,
+        300.8272078140307
+      ],
+      "P": [
+        140.0,
+        103.0
+      ],
+      "B": [
+        190.0,
+        170.0
+      ],
+      "C": [
+        168.94736842105263,
+        162.82296650717703
+      ],
+      "D": [
+        147.33333333333334,
+        152.0
+      ],
+      "E": [
+        156.86717267552183,
+        158.75774826059455
+      ]
+    }
+  },
+  "2418": {
+    "log": [],
+    "point_instances": [
+      "B",
+      "D",
+      "C",
+      "A",
+      "E",
+      "F",
+      "G"
+    ],
+    "line_instances": [
+      "BD",
+      "BC",
+      "BA",
+      "BF",
+      "BG",
+      "DC",
+      "DA",
+      "DE",
+      "DF",
+      "CA",
+      "CE",
+      "CF",
+      "CG",
+      "AF",
+      "AG",
+      "FG",
+      "GE"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(F, G, B)), 32)",
+      "Equals(LengthOf(Line(D, C)), 6.86)",
+      "Equals(LengthOf(Line(D, A)), 9)",
+      "Equals(MeasureOf(Angle(A, B, C)), 40.1)",
+      "Equals(LengthOf(Line(B, A)), 6)",
+      "Equals(MeasureOf(Angle(F, B, A)), 20)",
+      "PointLiesOnLine(F, Line(B, D))",
+      "PointLiesOnLine(F, Line(C, A))",
+      "PointLiesOnLine(F, Line(A, G))"
+    ],
+    "point_positions": {
+      "B": [
+        111.49201688751796,
+        83.27263049442138
+      ],
+      "D": [
+        15.511246893574409,
+        62.62118281441729
+      ],
+      "C": [
+        7.105427357601002e-15,
+        147.0
+      ],
+      "A": [
+        126.67222590332133,
+        0.9647152823459209
+      ],
+      "E": [
+        4.743455497382193,
+        98.45375218150087
+      ],
+      "F": [
+        64.66662790697674,
+        72.1496511627907
+      ],
+      "G": [
+        34.0,
+        102.0
+      ]
+    }
+  },
+  "2419": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "line_instances": [
+      "AB",
+      "AD",
+      "BC",
+      "BG",
+      "DC",
+      "GE"
+    ],
+    "circle_instances": [
+      "F"
+    ],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(G, E)), 8)",
+      "Equals(LengthOf(Line(A, D)), 6)",
+      "PointLiesOnCircle(A, Circle(F, radius_5_0))",
+      "PointLiesOnCircle(B, Circle(F, radius_5_0))",
+      "PointLiesOnCircle(C, Circle(F, radius_5_0))",
+      "PointLiesOnCircle(D, Circle(F, radius_5_0))"
+    ],
+    "point_positions": {
+      "A": [
+        213.98611041554096,
+        16.330437458678006
+      ],
+      "B": [
+        3.765197581096743,
+        128.99394336381695
+      ],
+      "C": [
+        88.85813956646142,
+        286.8783646174904
+      ],
+      "D": [
+        298.6315847208509,
+        174.59438870067416
+      ],
+      "E": [
+        80.0,
+        5.0
+      ],
+      "F": [
+        151.5,
+        152.5
+      ],
+      "G": [
+        59.0,
+        4.0
+      ]
+    }
+  },
+  "2420": {
+    "log": [
+      "Can not find the corresponding right angle:(-82.54545454545455, 41.401315789473685, -50.032085561497325, 73.04605263157895, 'perpendicular')",
+      "Can not find the corresponding equal angles:(-103.08021390374331, 65.34868421052632, -83.8288770053476, 90.57894736842105, 'angle')"
+    ],
+    "point_instances": [
+      "B",
+      "E",
+      "C",
+      "point_3",
+      "point_4"
+    ],
+    "line_instances": [
+      "BE",
+      "BC",
+      "Bpoint_4",
+      "EC",
+      "Cpoint_3",
+      "Cpoint_4",
+      "point_4point_3"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(C, B), Line(C, E))",
+      "Equals(LengthOf(Line(E, C)), 3)",
+      "Equals(LengthOf(Line(B, C)), 15)",
+      "Equals(LengthOf(Line(B, E)), 45)"
+    ],
+    "point_positions": {
+      "B": [
+        196.75618811881188,
+        47.504125412541256
+      ],
+      "E": [
+        1.451139331712156,
+        184.5503017202558
+      ],
+      "C": [
+        129.52147239263803,
+        2.0143149284253568
+      ],
+      "null": [
+        147.27083333333331,
+        13.680555555555557
+      ]
+    }
+  },
+  "2421": {
+    "log": [
+      "Can not find the corresponding right angle:(87.88182973316391, 133.32894736842107, 125.22363405336722, 166.63815789473685, 'perpendicular')"
+    ],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "line_instances": [
+      "AC",
+      "AD",
+      "CB",
+      "DB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(A, C)), 20)",
+      "Equals(MeasureOf(Angle(A, C, B)), 60)",
+      "Equals(LengthOf(Line(C, B)), 12)"
+    ],
+    "point_positions": {
+      "A": [
+        96.98701986754966,
+        1.0214569536423994
+      ],
+      "B": [
+        140.57762127640962,
+        161.00892349416034
+      ],
+      "C": [
+        0.0,
+        163.0
+      ],
+      "D": [
+        232.8951227007331,
+        2.6571403485666565
+      ]
+    }
+  },
+  "2422": {
+    "log": [],
+    "point_instances": [
+      "B",
+      "C",
+      "A",
+      "D",
+      "E"
+    ],
+    "line_instances": [
+      "BC",
+      "CA",
+      "CD",
+      "CE",
+      "AD",
+      "AE",
+      "DE"
+    ],
+    "circle_instances": [
+      "C"
+    ],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(D, E)), 14)",
+      "Equals(MeasureOf(Angle(A, C, B)), 80)",
+      "Equals(LengthOf(Line(D, E)), 0)",
+      "PointLiesOnLine(E, Line(C, A))",
+      "PointLiesOnLine(C, Line(A, D))",
+      "PointLiesOnLine(E, Line(A, D))",
+      "PointLiesOnLine(C, Line(D, E))",
+      "PointLiesOnCircle(B, Circle(C, radius_1_0))",
+      "PointLiesOnCircle(A, Circle(C, radius_1_0))",
+      "PointLiesOnCircle(D, Circle(C, radius_1_0))"
+    ],
+    "point_positions": {
+      "B": [
+        243.0792834310194,
+        252.00092457408488
+      ],
+      "C": [
+        147.3,
+        145.7
+      ],
+      "A": [
+        270.3928027659037,
+        70.06517397653587
+      ],
+      "D": [
+        23.62734080985848,
+        222.0017153015154
+      ],
+      "E": [
+        237.69775474956822,
+        89.53108808290156
+      ]
+    }
+  },
+  "2423": {
+    "log": [],
+    "point_instances": [
+      "B",
+      "C",
+      "A"
+    ],
+    "line_instances": [
+      "BC",
+      "BA",
+      "CA"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(B, A)), 2x-7)",
+      "Equals(LengthOf(Line(C, A)), x-3)",
+      "Equals(LengthOf(Line(B, C)), 4x-21)"
+    ],
+    "point_positions": {
+      "B": [
+        159.24514782882562,
+        2.1752686902090375
+      ],
+      "C": [
+        316.5000082149558,
+        320.32807576160855
+      ],
+      "A": [
+        0.8359406417077366,
+        319.0010679746059
+      ]
+    }
+  },
+  "2424": {
+    "log": [],
+    "point_instances": [
+      "G",
+      "E",
+      "B",
+      "C",
+      "A",
+      "D",
+      "F"
+    ],
+    "line_instances": [
+      "GE",
+      "GB",
+      "GC",
+      "GA",
+      "GD",
+      "GF",
+      "EC",
+      "ED",
+      "EF",
+      "BA",
+      "BF",
+      "AF"
+    ],
+    "circle_instances": [
+      "G"
+    ],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(G, B), Line(G, D))",
+      "Equals(MeasureOf(Angle(A, G, C)), 60)",
+      "PointLiesOnLine(F, Line(G, A))",
+      "PointLiesOnLine(G, Line(E, C))",
+      "PointLiesOnLine(G, Line(B, A))",
+      "PointLiesOnLine(F, Line(B, A))",
+      "PointLiesOnLine(G, Line(B, F))",
+      "PointLiesOnCircle(E, Circle(G, radius_0_0))",
+      "PointLiesOnCircle(B, Circle(G, radius_0_0))",
+      "PointLiesOnCircle(C, Circle(G, radius_0_0))",
+      "PointLiesOnCircle(A, Circle(G, radius_0_0))",
+      "PointLiesOnCircle(D, Circle(G, radius_0_0))"
+    ],
+    "point_positions": {
+      "G": [
+        83.90649134368081,
+        84.14480441906527
+      ],
+      "E": [
+        126.36348539059671,
+        157.8785218786704
+      ],
+      "B": [
+        169.09348433618126,
+        85.98395547497665
+      ],
+      "C": [
+        43.54369692984528,
+        11.957942209727392
+      ],
+      "A": [
+        1.4168905752968755,
+        82.06828388314683
+      ],
+      "D": [
+        85.95331662627714,
+        168.59949878831412
+      ],
+      "F": [
+        57.0,
+        84.0
+      ]
+    }
+  },
+  "2425": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "BC"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(C, A, B)), 55)",
+      "Equals(LengthOf(Line(A, C)), x)",
+      "Equals(MeasureOf(Angle(A, B, C)), 60)",
+      "Equals(LengthOf(Line(A, B)), 73)"
+    ],
+    "point_positions": {
+      "A": [
+        216.0,
+        39.0
+      ],
+      "B": [
+        0.5734002620489349,
+        1.3172828357944724
+      ],
+      "C": [
+        68.66606071782982,
+        187.3316911241668
+      ]
+    }
+  },
+  "2426": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "line_instances": [
+      "AB",
+      "AD",
+      "AE",
+      "BC",
+      "BE",
+      "DC"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(D, C)), x)",
+      "Equals(LengthOf(Line(A, D)), a=8)",
+      "Equals(MeasureOf(Angle(C, D, A)), a=32in)",
+      "Equals(LengthOf(Line(A, D)), 4)",
+      "PointLiesOnLine(E, Line(A, B))"
+    ],
+    "point_positions": {
+      "A": [
+        1.774607488858777,
+        117.00122789511255
+      ],
+      "B": [
+        303.99434965242926,
+        117.33329615999405
+      ],
+      "C": [
+        302.6779295604498,
+        1.3311773998699152
+      ],
+      "D": [
+        0.0,
+        1.0
+      ],
+      "E": [
+        230.0,
+        117.0
+      ]
+    }
+  },
+  "2427": {
+    "log": [],
+    "point_instances": [
+      "point_0",
+      "A",
+      "B",
+      "C",
+      "point_4",
+      "point_5"
+    ],
+    "line_instances": [
+      "point_0C",
+      "point_0point_4",
+      "point_0point_5",
+      "CA",
+      "CB",
+      "Cpoint_4",
+      "Cpoint_5",
+      "point_4B",
+      "point_4point_5",
+      "point_5A",
+      "AB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(C, A), Line(C, B))",
+      "Equals(LengthOf(Line(A, B)), 5)",
+      "Equals(LengthOf(Line(C, A)), x)",
+      "Equals(LengthOf(Line(C, B)), 3\\sqrt{2})"
+    ],
+    "point_positions": {
+      "null": [
+        1.3266331658291435,
+        24.57788944723618
+      ],
+      "A": [
+        0.0,
+        208.99999999999997
+      ],
+      "B": [
+        138.5608214849921,
+        1.3270142180094808
+      ],
+      "C": [
+        1.999793509309292,
+        0.014385518119560459
+      ]
+    }
+  },
+  "2428": {
+    "log": [],
+    "point_instances": [
+      "M",
+      "S",
+      "J",
+      "R",
+      "P",
+      "N",
+      "K",
+      "L"
+    ],
+    "line_instances": [
+      "MN",
+      "ML",
+      "NP",
+      "NK",
+      "LS",
+      "LR",
+      "LP",
+      "LK",
+      "SR",
+      "SK",
+      "RK",
+      "KJ",
+      "JP"
+    ],
+    "circle_instances": [
+      "R"
+    ],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(S, R), Line(S, K))",
+      "PointLiesOnLine(R, Line(L, P))",
+      "PointLiesOnLine(S, Line(L, K))",
+      "PointLiesOnCircle(M, Circle(R, radius_3_0))",
+      "PointLiesOnCircle(J, Circle(R, radius_3_0))",
+      "PointLiesOnCircle(P, Circle(R, radius_3_0))",
+      "PointLiesOnCircle(N, Circle(R, radius_3_0))",
+      "PointLiesOnCircle(K, Circle(R, radius_3_0))",
+      "PointLiesOnCircle(L, Circle(R, radius_3_0))"
+    ],
+    "point_positions": {
+      "M": [
+        165.9590454605315,
+        214.40401294177087
+      ],
+      "S": [
+        201.022491081123,
+        67.54187994416007
+      ],
+      "J": [
+        59.65305137954928,
+        15.657368495834916
+      ],
+      "R": [
+        113.12783748712069,
+        115.26126584434024
+      ],
+      "P": [
+        0.8355547585381373,
+        116.4734700660937
+      ],
+      "N": [
+        60.008661544624545,
+        215.13454920101105
+      ],
+      "K": [
+        172.30725862330897,
+        17.79351763248866
+      ],
+      "L": [
+        226.9834865097822,
+        116.06588577482408
+      ]
+    }
+  },
+  "2429": {
+    "log": [
+      "Can not find the corresponding right angle:(151.73170731707316, 128.52796052631578, 189.17073170731706, 160.98519736842104, 'perpendicular')"
+    ],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "line_instances": [
+      "AC",
+      "AD",
+      "CB",
+      "DB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(A, D, B)), 60)",
+      "Equals(LengthOf(Line(C, B)), 7)",
+      "Equals(LengthOf(Line(A, D)), 14)"
+    ],
+    "point_positions": {
+      "A": [
+        178.66666666666666,
+        0.0
+      ],
+      "B": [
+        85.47370283853614,
+        155.3206625610533
+      ],
+      "C": [
+        263.1167115012506,
+        154.00240690924537
+      ],
+      "D": [
+        2.842170943040401e-14,
+        0.0
+      ]
+    }
+  },
+  "2430": {
+    "log": [],
+    "point_instances": [
+      "X",
+      "W",
+      "Y",
+      "Z"
+    ],
+    "line_instances": [
+      "XW",
+      "XY",
+      "XZ",
+      "WY",
+      "WZ",
+      "YZ"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(W, X), Line(W, Y))",
+      "Equals(LengthOf(Line(W, Y)), LengthOf(Line(W, Z)))",
+      "Equals(LengthOf(Line(X, Y)), 18+2y)",
+      "Equals(LengthOf(Line(X, Z)), 5y-6)",
+      "PointLiesOnLine(W, Line(Y, Z))"
+    ],
+    "point_positions": {
+      "X": [
+        432.14337032710284,
+        224.36556658878504
+      ],
+      "W": [
+        34.66755614854347,
+        107.19909569342525
+      ],
+      "Y": [
+        1.86606384291332,
+        215.6777395871891
+      ],
+      "Z": [
+        67.14397896532522,
+        0.9559075432994177
+      ]
+    }
+  },
+  "2431": {
+    "log": [],
+    "point_instances": [
+      "X",
+      "U",
+      "Y",
+      "W",
+      "Z",
+      "V",
+      "A",
+      "B"
+    ],
+    "line_instances": [
+      "XU",
+      "XY",
+      "XW",
+      "XA",
+      "XB",
+      "UZ",
+      "UV",
+      "UA",
+      "UB",
+      "YW",
+      "YZ",
+      "YV",
+      "YA",
+      "YB",
+      "WZ",
+      "WV",
+      "WA",
+      "WB",
+      "AZ",
+      "AV",
+      "AB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(B, U), Line(B, Y))",
+      "Equals(LengthOf(Line(X, W)), LengthOf(Line(Y, Z)))",
+      "Equals(LengthOf(Line(Y, Z)), LengthOf(Line(W, A)))",
+      "Equals(LengthOf(Line(W, A)), LengthOf(Line(A, Z)))",
+      "Equals(LengthOf(Line(A, Z)), LengthOf(Line(U, V)))",
+      "Equals(LengthOf(Line(U, V)), LengthOf(Line(U, A)))",
+      "Equals(LengthOf(Line(U, A)), LengthOf(Line(X, Y)))",
+      "Equals(LengthOf(Line(X, Y)), LengthOf(Line(W, V)))",
+      "Equals(LengthOf(Line(W, V)), LengthOf(Line(A, V)))",
+      "Equals(LengthOf(Line(A, V)), LengthOf(Line(U, Z)))",
+      "Equals(LengthOf(Line(U, Z)), LengthOf(Line(Y, A)))",
+      "Equals(LengthOf(Line(Y, Z)), 12)",
+      "PointLiesOnLine(A, Line(X, U))",
+      "PointLiesOnLine(B, Line(X, U))",
+      "PointLiesOnLine(B, Line(X, A))",
+      "PointLiesOnLine(A, Line(U, B))",
+      "PointLiesOnLine(B, Line(Y, W))",
+      "PointLiesOnLine(A, Line(Y, V))",
+      "PointLiesOnLine(A, Line(W, Z))"
+    ],
+    "point_positions": {
+      "X": [
+        142.52312279420713,
+        13.779461279461273
+      ],
+      "U": [
+        47.67577442968858,
+        176.72042061355387
+      ],
+      "Y": [
+        190.6385140215611,
+        93.60643015425445
+      ],
+      "W": [
+        48.22821518632669,
+        13.200000000000003
+      ],
+      "Z": [
+        142.33778438063666,
+        177.6963050010753
+      ],
+      "V": [
+        1.6613518160882705,
+        95.97619821121216
+      ],
+      "A": [
+        95.24839300791987,
+        94.85868153491633
+      ],
+      "B": [
+        119.25,
+        53.067708333333336
+      ]
+    }
+  },
+  "2432": {
+    "log": [],
+    "point_instances": [
+      "point_0",
+      "point_1",
+      "A",
+      "point_3",
+      "B",
+      "point_5",
+      "point_6",
+      "point_7",
+      "C",
+      "point_9",
+      "D",
+      "point_11",
+      "E",
+      "F",
+      "point_14",
+      "point_15",
+      "point_16",
+      "G",
+      "point_18"
+    ],
+    "line_instances": [
+      "point_0point_5",
+      "point_0C",
+      "point_0point_11",
+      "point_0E",
+      "point_0point_16",
+      "point_5A",
+      "point_5point_9",
+      "point_5point_11",
+      "point_5E",
+      "Cpoint_1",
+      "Cpoint_3",
+      "CD",
+      "CE",
+      "Cpoint_14",
+      "Cpoint_15",
+      "Cpoint_16",
+      "point_11E",
+      "EA",
+      "Epoint_9",
+      "Epoint_16",
+      "point_16point_3",
+      "point_16point_14",
+      "point_1A",
+      "point_1B",
+      "point_1point_7",
+      "point_1D",
+      "point_1F",
+      "point_1point_14",
+      "point_1point_15",
+      "point_1G",
+      "point_1point_18",
+      "AB",
+      "Apoint_6",
+      "Apoint_9",
+      "AD",
+      "AF",
+      "AG",
+      "Apoint_18",
+      "BD",
+      "BF",
+      "Bpoint_15",
+      "BG",
+      "Bpoint_18",
+      "point_7D",
+      "point_7point_15",
+      "point_7G",
+      "DF",
+      "Dpoint_14",
+      "Dpoint_15",
+      "DG",
+      "Dpoint_18",
+      "FG",
+      "Fpoint_18",
+      "point_14point_3",
+      "point_14point_15",
+      "point_15G",
+      "Gpoint_18",
+      "point_18point_6",
+      "point_18point_9",
+      "point_6point_9"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(A, D), Line(A, E))",
+      "Perpendicular(Line(D, A), Line(D, C))",
+      "Perpendicular(Line(C, D), Line(C, E))",
+      "Perpendicular(Line(E, A), Line(E, C))",
+      "Equals(LengthOf(Line(E, A)), 9)",
+      "Equals(LengthOf(Line(A, D)), 16)",
+      "PointLiesOnLine(F, Line(A, B))",
+      "PointLiesOnLine(B, Line(A, D))",
+      "PointLiesOnLine(F, Line(A, D))",
+      "PointLiesOnLine(G, Line(A, D))",
+      "PointLiesOnLine(B, Line(A, G))",
+      "PointLiesOnLine(F, Line(A, G))",
+      "PointLiesOnLine(G, Line(B, D))",
+      "PointLiesOnLine(B, Line(D, F))",
+      "PointLiesOnLine(G, Line(D, F))",
+      "PointLiesOnLine(B, Line(F, G))"
+    ],
+    "point_positions": {
+      "null": [
+        259.97238915056033,
+        157.39256131232742
+      ],
+      "A": [
+        279.3290681376317,
+        157.32971620623653
+      ],
+      "B": [
+        64.0,
+        156.0
+      ],
+      "C": [
+        0.0,
+        0.0
+      ],
+      "D": [
+        1.7845733205671195,
+        156.3875282165351
+      ],
+      "E": [
+        278.0125243025727,
+        1.9894199032418527
+      ],
+      "F": [
+        103.0,
+        156.0
+      ],
+      "G": [
+        47.0,
+        158.0
+      ]
+    }
+  },
+  "2433": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "point_3",
+      "point_4"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "Apoint_3",
+      "BC",
+      "Cpoint_3",
+      "Cpoint_4",
+      "point_3point_4"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(C, A), Line(C, B))",
+      "Equals(LengthOf(Line(A, C)), y)",
+      "Equals(MeasureOf(Angle(C, A, B)), 60)",
+      "Equals(LengthOf(Line(A, B)), 17)",
+      "Equals(LengthOf(Line(B, C)), x)"
+    ],
+    "point_positions": {
+      "A": [
+        21.046947600247094,
+        153.62737356645985
+      ],
+      "B": [
+        204.25925344222816,
+        1.5656248363960046
+      ],
+      "C": [
+        1.4199258081611035,
+        35.20900900900901
+      ],
+      "null": [
+        25.0,
+        50.0
+      ]
+    }
+  },
+  "2434": {
+    "log": [],
+    "point_instances": [
+      "R",
+      "T",
+      "B",
+      "Q",
+      "S",
+      "A"
+    ],
+    "line_instances": [
+      "RQ",
+      "RS",
+      "RA",
+      "QT",
+      "QA",
+      "ST",
+      "SB",
+      "AB",
+      "TB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(Q, A)), LengthOf(Line(R, A)))",
+      "Equals(LengthOf(Line(T, B)), LengthOf(Line(S, B)))",
+      "Equals(LengthOf(Line(Q, T)), 86)",
+      "Equals(LengthOf(Line(R, S)), 54)",
+      "PointLiesOnLine(A, Line(R, Q))",
+      "PointLiesOnLine(B, Line(S, T))"
+    ],
+    "point_positions": {
+      "R": [
+        37.000000000000014,
+        2.0
+      ],
+      "T": [
+        274.96185275982464,
+        63.66937820369958
+      ],
+      "B": [
+        245.07260524710188,
+        34.99593247915396
+      ],
+      "Q": [
+        1.0000000000000284,
+        65.0
+      ],
+      "S": [
+        209.37435897435898,
+        1.3333333333333357
+      ],
+      "A": [
+        18.356250000000003,
+        34.0015625
+      ]
+    }
+  },
+  "2435": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "BC"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(B, C, A)), 40)",
+      "Equals(MeasureOf(Angle(C, A, B)), x)",
+      "Equals(MeasureOf(Angle(A, B, C)), 25)"
+    ],
+    "point_positions": {
+      "A": [
+        67.66811279826464,
+        136.6695589298626
+      ],
+      "B": [
+        297.7434274903777,
+        136.66988496749082
+      ],
+      "C": [
+        0.6666666666666714,
+        1.3333333333333428
+      ]
+    }
+  },
+  "2436": {
+    "log": [],
+    "point_instances": [
+      "E",
+      "B",
+      "D",
+      "C",
+      "A",
+      "F"
+    ],
+    "line_instances": [
+      "EB",
+      "ED",
+      "EC",
+      "EA",
+      "BD",
+      "BC",
+      "DA",
+      "CA"
+    ],
+    "circle_instances": [
+      "F"
+    ],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(C, B, E)), MeasureOf(angle 1))",
+      "Equals(MeasureOf(Angle(B, E, C)), 30)",
+      "Equals(MeasureOf(Angle(D, E, A)), 20)",
+      "Equals(MeasureOf(Angle(A, E, B)), MeasureOf(angle 2))",
+      "PointLiesOnLine(E, Line(B, D))",
+      "PointLiesOnLine(E, Line(C, A))",
+      "PointLiesOnCircle(B, Circle(F, radius_5_0))",
+      "PointLiesOnCircle(D, Circle(F, radius_5_0))",
+      "PointLiesOnCircle(C, Circle(F, radius_5_0))",
+      "PointLiesOnCircle(A, Circle(F, radius_5_0))"
+    ],
+    "point_positions": {
+      "E": [
+        81.05742145178765,
+        70.42145178764898
+      ],
+      "B": [
+        167.0474954251375,
+        37.98208256416969
+      ],
+      "D": [
+        2.8618209161268595,
+        99.92039091188029
+      ],
+      "C": [
+        184.2439493612167,
+        79.02032911343473
+      ],
+      "A": [
+        6.98363684567984,
+        64.24863640380666
+      ],
+      "F": [
+        95.5,
+        92.5
+      ]
+    }
+  },
+  "2437": {
+    "log": [],
+    "point_instances": [
+      "Y",
+      "A",
+      "V",
+      "B",
+      "W",
+      "Z",
+      "X",
+      "C",
+      "D",
+      "E"
+    ],
+    "line_instances": [
+      "YV",
+      "YX",
+      "YC",
+      "YE",
+      "VX",
+      "VC",
+      "XA",
+      "XB",
+      "XW",
+      "XZ",
+      "XC",
+      "XD",
+      "XE",
+      "CE",
+      "EA",
+      "EB",
+      "EW",
+      "ED",
+      "AB",
+      "AD",
+      "BW",
+      "BZ",
+      "BD",
+      "WZ"
+    ],
+    "circle_instances": [
+      "X"
+    ],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(A, E, Y)), 4x+15))",
+      "Equals(MeasureOf(Angle(D, X, V)), 2x+65))",
+      "PointLiesOnLine(X, Line(Y, V))",
+      "PointLiesOnLine(C, Line(Y, V))",
+      "PointLiesOnLine(C, Line(Y, X))",
+      "PointLiesOnLine(X, Line(V, C))",
+      "PointLiesOnLine(B, Line(X, D))",
+      "PointLiesOnLine(X, Line(E, B))",
+      "PointLiesOnLine(B, Line(E, D))",
+      "PointLiesOnLine(X, Line(A, B))",
+      "PointLiesOnLine(B, Line(A, D))",
+      "PointLiesOnLine(X, Line(A, D))",
+      "PointLiesOnLine(X, Line(W, Z))",
+      "PointLiesOnCircle(Y, Circle(X, radius_6_0))",
+      "PointLiesOnCircle(V, Circle(X, radius_6_0))",
+      "PointLiesOnCircle(W, Circle(X, radius_6_0))",
+      "PointLiesOnCircle(Z, Circle(X, radius_6_0))"
+    ],
+    "point_positions": {
+      "Y": [
+        19.528199873728923,
+        114.78734810278446
+      ],
+      "A": [
+        87.0,
+        134.0
+      ],
+      "V": [
+        176.54018018107965,
+        55.54453596420045
+      ],
+      "B": [
+        100.0,
+        67.0
+      ],
+      "W": [
+        158.23094252649105,
+        141.37246712437175
+      ],
+      "Z": [
+        34.73266232619527,
+        27.754049340099655
+      ],
+      "X": [
+        96.38601488082094,
+        83.92513369035527
+      ],
+      "C": [
+        52.0,
+        102.0
+      ],
+      "D": [
+        105.0,
+        44.0
+      ],
+      "E": [
+        98.0,
+        95.0
+      ]
+    }
+  },
+  "2438": {
+    "log": [],
+    "point_instances": [
+      "S",
+      "T",
+      "V",
+      "W",
+      "R"
+    ],
+    "line_instances": [
+      "SV",
+      "SW",
+      "SR",
+      "VT",
+      "VR",
+      "WT",
+      "WR",
+      "RT"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(W, R)), x+6)",
+      "Equals(LengthOf(Line(S, W)), 8)",
+      "Equals(LengthOf(Line(R, T)), 2x+6)",
+      "Equals(LengthOf(Line(V, T)), 10)",
+      "PointLiesOnLine(R, Line(S, V))",
+      "PointLiesOnLine(R, Line(W, T))"
+    ],
+    "point_positions": {
+      "S": [
+        260.9095342813859,
+        0.8607731026731216
+      ],
+      "T": [
+        677.0884446636069,
+        81.71910126566274
+      ],
+      "V": [
+        359.12845637583894,
+        215.6123042505593
+      ],
+      "W": [
+        5.684341886080802e-14,
+        121.0
+      ],
+      "R": [
+        307.56970146560536,
+        103.30793752631473
+      ]
+    }
+  },
+  "2439": {
+    "log": [],
+    "point_instances": [
+      "T",
+      "point_1",
+      "R",
+      "S",
+      "point_4",
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "line_instances": [
+      "TR",
+      "TS",
+      "Tpoint_4",
+      "RS",
+      "Rpoint_4",
+      "RA",
+      "SA",
+      "point_4B",
+      "point_4D",
+      "point_1A",
+      "point_1C",
+      "AC",
+      "BD"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(B, D)), LengthOf(Line(A, C)))",
+      "Equals(MeasureOf(Angle(T, R, A)), 70)",
+      "PointLiesOnLine(A, Line(R, S))"
+    ],
+    "point_positions": {
+      "T": [
+        227.09815950920245,
+        163.33333333333331
+      ],
+      "null": [
+        172.4795170916983,
+        86.72314161692893
+      ],
+      "R": [
+        113.00247493901679,
+        1.4759717251571374
+      ],
+      "S": [
+        0.4634146341463605,
+        163.66666666666666
+      ],
+      "A": [
+        54.07301417491308,
+        87.21075153784435
+      ],
+      "B": [
+        157.0,
+        99.0
+      ],
+      "C": [
+        39.0,
+        77.0
+      ],
+      "D": [
+        186.0,
+        76.0
+      ]
+    }
+  },
+  "2440": {
+    "log": [],
+    "point_instances": [
+      "F",
+      "D",
+      "B",
+      "C",
+      "A",
+      "E",
+      "G"
+    ],
+    "line_instances": [
+      "FE",
+      "FG",
+      "EB",
+      "EA",
+      "GD",
+      "GA",
+      "DC",
+      "DA",
+      "CB",
+      "AB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(A, B)), 26)",
+      "Equals(LengthOf(Line(G, D)), 4.5)",
+      "Equals(LengthOf(Line(D, A)), 12g)",
+      "Equals(LengthOf(Line(F, E)), 8)",
+      "Equals(LengthOf(Line(F, G)), 514)",
+      "Equals(LengthOf(Line(F, G)), 14)",
+      "Equals(MeasureOf(Angle(A, G, F)), 108)",
+      "PointLiesOnLine(G, Line(D, A))",
+      "PointLiesOnLine(E, Line(A, B))"
+    ],
+    "point_positions": {
+      "F": [
+        157.04896626768226,
+        87.02067464635473
+      ],
+      "D": [
+        37.31751181428973,
+        132.00915514866006
+      ],
+      "B": [
+        250.99252197229256,
+        0.6673519042653737
+      ],
+      "C": [
+        248.67426661114195,
+        133.32720248010364
+      ],
+      "A": [
+        1.0,
+        26.5
+      ],
+      "E": [
+        159.99149489693815,
+        9.17010206123674
+      ],
+      "G": [
+        22.063283336757763,
+        88.9768851448531
+      ]
+    }
+  },
+  "2441": {
+    "log": [],
+    "point_instances": [
+      "point_0",
+      "A",
+      "point_2",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "point_14"
+    ],
+    "line_instances": [
+      "point_0B",
+      "point_0D",
+      "point_0I",
+      "point_0J",
+      "point_0point_14",
+      "BD",
+      "BI",
+      "BJ",
+      "Bpoint_14",
+      "DA",
+      "DC",
+      "DG",
+      "DI",
+      "DJ",
+      "Dpoint_14",
+      "IE",
+      "IH",
+      "IJ",
+      "IK",
+      "Ipoint_14",
+      "Jpoint_14",
+      "AC",
+      "AG",
+      "CG",
+      "Gpoint_2",
+      "GF",
+      "GK",
+      "GL",
+      "point_2F",
+      "point_2K",
+      "point_2L",
+      "FK",
+      "FL",
+      "KE",
+      "KH",
+      "KL",
+      "EH"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Parallel(Line(F, L), Line(B, J))",
+      "Equals(MeasureOf(Angle(J, I, H)), MeasureOf(angle 4))",
+      "Equals(MeasureOf(Angle(H, I, B)), MeasureOf(angle 8))",
+      "Equals(MeasureOf(Angle(F, G, A)), MeasureOf(angle 13))",
+      "Equals(MeasureOf(Angle(K, G, C)), MeasureOf(angle 10))",
+      "Equals(MeasureOf(Angle(B, D, A)), MeasureOf(angle 15))",
+      "Equals(MeasureOf(Angle(A, G, L)), MeasureOf(angle 9))",
+      "Equals(MeasureOf(Angle(A, D, J)), MeasureOf(angle 11))",
+      "Equals(MeasureOf(Angle(E, I, J)), MeasureOf(angle 3))",
+      "Equals(MeasureOf(Angle(L, K, H)), MeasureOf(angle 2))",
+      "Equals(MeasureOf(Angle(H, K, F)), MeasureOf(angle 6))",
+      "Equals(MeasureOf(Angle(F, K, E)), MeasureOf(angle 5))",
+      "Equals(MeasureOf(Angle(I, D, C)), MeasureOf(angle 12))",
+      "Equals(MeasureOf(Angle(E, K, L)), MeasureOf(angle 1))",
+      "Equals(MeasureOf(Angle(B, I, E)), MeasureOf(angle 7))",
+      "Equals(MeasureOf(Angle(C, D, B)), MeasureOf(angle 16))",
+      "Equals(MeasureOf(Angle(C, G, F)), MeasureOf(angle 14))",
+      "PointLiesOnLine(D, Line(B, I))",
+      "PointLiesOnLine(D, Line(B, J))",
+      "PointLiesOnLine(I, Line(B, J))",
+      "PointLiesOnLine(G, Line(D, A))",
+      "PointLiesOnLine(I, Line(D, J))",
+      "PointLiesOnLine(K, Line(I, E))",
+      "PointLiesOnLine(D, Line(A, C))",
+      "PointLiesOnLine(G, Line(A, C))",
+      "PointLiesOnLine(D, Line(C, G))",
+      "PointLiesOnLine(K, Line(G, L))",
+      "PointLiesOnLine(G, Line(F, K))",
+      "PointLiesOnLine(G, Line(F, L))",
+      "PointLiesOnLine(K, Line(F, L))",
+      "PointLiesOnLine(I, Line(K, H))",
+      "PointLiesOnLine(I, Line(E, H))",
+      "PointLiesOnLine(K, Line(E, H))"
+    ],
+    "point_positions": {
+      "null": [
+        292.0,
+        37.5
+      ],
+      "A": [
+        0.0,
+        265.0
+      ],
+      "B": [
+        214.0,
+        325.0
+      ],
+      "C": [
+        407.0,
+        177.0
+      ],
+      "D": [
+        245.60236886632825,
+        211.89678510998309
+      ],
+      "E": [
+        1.0,
+        83.0
+      ],
+      "F": [
+        66.0,
+        325.0
+      ],
+      "G": [
+        87.77726120033813,
+        246.0211327134404
+      ],
+      "H": [
+        407.0,
+        114.0
+      ],
+      "I": [
+        275.7558960173068,
+        103.97889846437565
+      ],
+      "J": [
+        301.5,
+        4.0
+      ],
+      "K": [
+        130.0117686706812,
+        92.85065228766285
+      ],
+      "L": [
+        153.0,
+        1.0
+      ]
+    }
+  },
+  "2442": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "AF",
+      "AG",
+      "BC",
+      "BF",
+      "BG",
+      "CD",
+      "CE",
+      "CF",
+      "CG",
+      "FG",
+      "DE"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(D, C, A)), x)",
+      "Equals(MeasureOf(Angle(G, C, E)), x)",
+      "Equals(MeasureOf(Angle(E, C, B)), x)",
+      "Equals(MeasureOf(Angle(B, C, D)), x)",
+      "PointLiesOnLine(C, Line(B, F))",
+      "PointLiesOnLine(C, Line(D, E))"
+    ],
+    "point_positions": {
+      "A": [
+        31.0,
+        159.0
+      ],
+      "B": [
+        328.0,
+        151.0
+      ],
+      "C": [
+        177.9971317034782,
+        150.07118966999056
+      ],
+      "D": [
+        179.0,
+        300.0
+      ],
+      "E": [
+        177.0,
+        1.0
+      ],
+      "F": [
+        1.7802721088435192,
+        149.59863945578232
+      ],
+      "G": [
+        31.0,
+        142.0
+      ]
+    }
+  },
+  "2443": {
+    "log": [],
+    "point_instances": [
+      "point_0",
+      "R",
+      "P",
+      "S",
+      "Q",
+      "point_5"
+    ],
+    "line_instances": [
+      "point_0P",
+      "point_0Q",
+      "point_0point_5",
+      "PR",
+      "PS",
+      "PQ",
+      "QR",
+      "QS",
+      "Qpoint_5",
+      "point_5S",
+      "RS"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(Q, R), Line(Q, P))",
+      "Equals(MeasureOf(Angle(P, R, Q)), 33)",
+      "Equals(MeasureOf(Angle(Q, S, R)), MeasureOf(angle 1))",
+      "Equals(MeasureOf(Angle(R, Q, S)), MeasureOf(angle 2))",
+      "Equals(MeasureOf(Angle(S, Q, P)), 51)",
+      "PointLiesOnLine(S, Line(P, R))"
+    ],
+    "point_positions": {
+      "null": [
+        41.58275028622313,
+        32.03053046686172
+      ],
+      "R": [
+        485.81635375591,
+        0.6684126890706779
+      ],
+      "P": [
+        2.6584867075664675,
+        314.1411042944785
+      ],
+      "S": [
+        216.43816430794527,
+        175.54007868929472
+      ],
+      "Q": [
+        1.5738724373344013,
+        0.8606283267274648
+      ]
+    }
+  },
+  "2444": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "AD",
+      "BC",
+      "BD",
+      "CD"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(A, C), Line(A, D))",
+      "Equals(LengthOf(Line(A, B)), LengthOf(Line(B, D)))",
+      "Equals(LengthOf(Line(C, D)), 40)",
+      "Equals(LengthOf(Line(A, C)), 22)",
+      "Equals(MeasureOf(Angle(C, D, B)), y)",
+      "Equals(MeasureOf(Angle(A, C, B)), x)",
+      "PointLiesOnLine(B, Line(A, D))"
+    ],
+    "point_positions": {
+      "A": [
+        307.99805071927193,
+        170.33333966216685
+      ],
+      "B": [
+        151.76841298726174,
+        170.25399865913226
+      ],
+      "C": [
+        306.6934211199123,
+        0.9451896416068877
+      ],
+      "D": [
+        0.0,
+        171.0
+      ]
+    }
+  },
+  "2445": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "line_instances": [
+      "AC",
+      "AE",
+      "AG",
+      "AH",
+      "CB",
+      "CD",
+      "CF",
+      "CG",
+      "CH",
+      "EB",
+      "ED",
+      "EF",
+      "EG",
+      "EH",
+      "GB",
+      "GD",
+      "GF",
+      "GH",
+      "HB",
+      "HD",
+      "BD",
+      "DF"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(H, B), Line(H, D))",
+      "Equals(MeasureOf(Angle(B, D, C)), 30)",
+      "Equals(LengthOf(Line(E, G)), y)",
+      "Equals(LengthOf(Line(C, B)), 8)",
+      "Equals(LengthOf(Line(H, B)), x)",
+      "Equals(MeasureOf(Angle(D, C, B)), 45)",
+      "PointLiesOnLine(F, Line(A, G))",
+      "PointLiesOnLine(H, Line(C, D))",
+      "PointLiesOnLine(A, Line(C, F))",
+      "PointLiesOnLine(H, Line(E, B))",
+      "PointLiesOnLine(A, Line(E, F))",
+      "PointLiesOnLine(A, Line(E, G))",
+      "PointLiesOnLine(F, Line(E, G))"
+    ],
+    "point_positions": {
+      "A": [
+        213.0,
+        115.0
+      ],
+      "B": [
+        50.835129992890955,
+        189.62110384731565
+      ],
+      "C": [
+        2.842170943040401e-14,
+        1.4210854715202004e-14
+      ],
+      "D": [
+        315.0,
+        191.0
+      ],
+      "E": [
+        127.73891247220537,
+        59.244269254093396
+      ],
+      "F": [
+        233.0,
+        127.0
+      ],
+      "G": [
+        319.0,
+        180.0
+      ],
+      "H": [
+        120.18923763782723,
+        72.8766488534127
+      ]
+    }
+  },
+  "2446": {
+    "log": [],
+    "point_instances": [
+      "T",
+      "S",
+      "C",
+      "A",
+      "B",
+      "R",
+      "M"
+    ],
+    "line_instances": [
+      "TC",
+      "TA",
+      "TB",
+      "TM",
+      "CS",
+      "CA",
+      "CB",
+      "CR",
+      "CM",
+      "AS",
+      "AB",
+      "AR",
+      "AM",
+      "BS",
+      "BR",
+      "BM",
+      "MS",
+      "MR"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(LengthOf(Line(A, S)), LengthOf(Line(B, S)))",
+      "Equals(LengthOf(Line(T, C)), LengthOf(Line(A, R)))",
+      "Equals(LengthOf(Line(A, R)), LengthOf(Line(T, B)))",
+      "Equals(LengthOf(Line(T, B)), LengthOf(Line(C, R)))",
+      "Equals(LengthOf(Line(C, S)), 7)",
+      "Equals(LengthOf(Line(M, R)), 4)",
+      "PointLiesOnLine(M, Line(T, A))",
+      "PointLiesOnLine(M, Line(C, S))",
+      "PointLiesOnLine(R, Line(C, A))",
+      "PointLiesOnLine(T, Line(C, B))",
+      "PointLiesOnLine(S, Line(A, B))",
+      "PointLiesOnLine(M, Line(B, R))"
+    ],
+    "point_positions": {
+      "T": [
+        210.04736855654622,
+        311.7864982451323
+      ],
+      "S": [
+        340.56554938007696,
+        135.29557930739634
+      ],
+      "C": [
+        1.43771578867441,
+        366.4221521782608
+      ],
+      "A": [
+        279.1650755040912,
+        0.9421485251745594
+      ],
+      "B": [
+        397.23596766916296,
+        263.1185055137697
+      ],
+      "R": [
+        144.16290210420584,
+        179.05472995595846
+      ],
+      "M": [
+        232.8095214795741,
+        208.70893808735022
+      ]
+    }
+  },
+  "2447": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "point_5",
+      "point_6",
+      "F",
+      "G",
+      "point_9",
+      "H",
+      "I"
+    ],
+    "line_instances": [
+      "AC",
+      "AD",
+      "Apoint_6",
+      "AF",
+      "Cpoint_6",
+      "CF",
+      "DB",
+      "Dpoint_5",
+      "DG",
+      "Dpoint_9",
+      "DH",
+      "DI",
+      "point_6F",
+      "FE",
+      "FG",
+      "Bpoint_5",
+      "BG",
+      "Bpoint_9",
+      "BH",
+      "BI",
+      "point_5G",
+      "point_5point_9",
+      "point_5H",
+      "point_5I",
+      "GE",
+      "Gpoint_9",
+      "GH",
+      "GI",
+      "point_9H",
+      "point_9I",
+      "HI"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Parallel(Line(A, F), Line(D, G))",
+      "Equals(MeasureOf(Angle(E, G, H)), 3x-70))",
+      "Equals(MeasureOf(Angle(A, D, B)), x)",
+      "Equals(MeasureOf(Angle(C, A, D)), 120)",
+      "Equals(MeasureOf(Angle(I, G, F)), 3y+40))",
+      "PointLiesOnLine(C, Line(A, F))",
+      "PointLiesOnLine(H, Line(D, B))",
+      "PointLiesOnLine(B, Line(D, G))",
+      "PointLiesOnLine(H, Line(D, G))",
+      "PointLiesOnLine(I, Line(D, G))",
+      "PointLiesOnLine(B, Line(D, I))",
+      "PointLiesOnLine(H, Line(D, I))",
+      "PointLiesOnLine(I, Line(B, G))",
+      "PointLiesOnLine(B, Line(G, H))",
+      "PointLiesOnLine(I, Line(G, H))",
+      "PointLiesOnLine(B, Line(H, I))"
+    ],
+    "point_positions": {
+      "A": [
+        28.727866061293994,
+        188.20303632236096
+      ],
+      "B": [
+        173.42857142857142,
+        77.33333333333333
+      ],
+      "C": [
+        6.568904593639573,
+        105.91519434628975
+      ],
+      "D": [
+        217.0,
+        238.5
+      ],
+      "E": [
+        295.0,
+        0.0
+      ],
+      "null": [
+        186.0,
+        124.5
+      ],
+      "F": [
+        1.4062982316396955,
+        88.75401070899127
+      ],
+      "G": [
+        165.0,
+        45.0
+      ],
+      "H": [
+        178.6793893129771,
+        92.30788804071247
+      ],
+      "I": [
+        170.36257309941521,
+        65.83723196881091
+      ]
+    }
+  },
+  "2448": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "BC"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(C, A), Line(C, B))",
+      "Equals(MeasureOf(Angle(B, A, C)), 60)",
+      "Equals(LengthOf(Line(A, C)), y)",
+      "Equals(LengthOf(Line(B, C)), x)",
+      "Equals(LengthOf(Line(A, B)), 20)"
+    ],
+    "point_positions": {
+      "A": [
+        1.4210854715202004e-14,
+        1.4210854715202004e-14
+      ],
+      "B": [
+        244.65690334713798,
+        137.99447812256167
+      ],
+      "C": [
+        2.9809084275092204,
+        136.67467408240145
+      ]
+    }
+  },
+  "2449": {
+    "log": [],
+    "point_instances": [
+      "U",
+      "W",
+      "Y",
+      "Z",
+      "V",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "line_instances": [
+      "UZ",
+      "UV",
+      "UA",
+      "UC",
+      "UD",
+      "UF",
+      "UG",
+      "ZY",
+      "ZA",
+      "ZC",
+      "ZD",
+      "ZG",
+      "VW",
+      "VB",
+      "VE",
+      "VF",
+      "VG",
+      "AD",
+      "AG",
+      "CG",
+      "DG",
+      "FW",
+      "FB",
+      "FE",
+      "WY",
+      "WE",
+      "EB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Equals(MeasureOf(Angle(E, V, G)), x-8))",
+      "Equals(MeasureOf(Angle(V, W, Y)), 3x-11))",
+      "Equals(MeasureOf(Angle(Z, Y, W)), x)",
+      "Equals(MeasureOf(Angle(G, Z, Y)), 2x+7))",
+      "Equals(MeasureOf(Angle(Y, W, E)), x+8))",
+      "PointLiesOnLine(A, Line(U, Z))",
+      "PointLiesOnLine(D, Line(U, Z))",
+      "PointLiesOnLine(D, Line(U, A))",
+      "PointLiesOnLine(A, Line(Z, D))",
+      "PointLiesOnLine(C, Line(Z, G))",
+      "PointLiesOnLine(F, Line(V, W))",
+      "PointLiesOnLine(C, Line(A, G))",
+      "PointLiesOnLine(F, Line(E, B))"
+    ],
+    "point_positions": {
+      "U": [
+        0.8463790691301369,
+        55.82796071134959
+      ],
+      "W": [
+        330.3321144714456,
+        105.4580635331759
+      ],
+      "Y": [
+        328.0101203978363,
+        410.29767928808235
+      ],
+      "Z": [
+        53.10991626559267,
+        308.13918025670836
+      ],
+      "V": [
+        164.04706977199814,
+        0.986212132343951
+      ],
+      "A": [
+        28.741935483870975,
+        181.8110599078341
+      ],
+      "B": [
+        229.0,
+        23.0
+      ],
+      "C": [
+        26.0,
+        95.0
+      ],
+      "D": [
+        23.0,
+        149.0
+      ],
+      "E": [
+        162.0,
+        25.0
+      ],
+      "F": [
+        199.30825047030368,
+        23.88632088148347
+      ],
+      "G": [
+        22.0,
+        61.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "result": [
+    {
+      "pid": 2401,
+      "target": "['Area', 'A', 'B', 'C']",
+      "guess": 60.0,
+      "correctness": "yes",
+      "steps": 0,
+      "step_lst": [],
+      "time": 2.92
+    },
+    {
+      "pid": 2402,
+      "target": "None",
+      "guess": null,
+      "correctness": "no",
+      "steps": 0,
+      "step_lst": [],
+      "time": 3.51
+    },
+    {
+      "pid": 2403,
+      "target": "None",
+      "guess": null,
+      "correctness": "no",
+      "steps": 0,
+      "step_lst": [],
+      "time": 2.82
+    },
+    {
+      "pid": 2404,
+      "target": "None",
+      "guess": null,
+      "correctness": "no",
+      "steps": 0,
+      "step_lst": [],
+      "time": 24.14
+    }
+  ],
+  "test_list": [
+    2401,
+    2402,
+    2403,
+    2404
+  ],
+  "solved_list": [
+    2401
+  ],
+  "solved_correct_list": [
+    2401
+  ],
+  "solved_wrong_list": [],
+  "unsolved_list": [
+    2402,
+    2403,
+    2404
+  ],
+  "avg_solve_time": 33.39,
+  "avg_solved_time": 2.92,
+  "avg_solve_step": 0.0,
+  "avg_solved_step": 0.0,
+  "real_time": 31,
+  "problem_data_version": "../data/geometry3k",
+  "text_logic_version": "../text_parser/text_logic_forms.json",
+  "diagram_logic_version": "../diagram_parser/diagram_logic_forms.json"
+}

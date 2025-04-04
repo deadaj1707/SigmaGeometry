@@ -1,0 +1,37 @@
+                   label = final_new
+                strategy = final
+               data_path = ../data/geometry3k
+    text_logic_form_path = ../text_parser/text_logic_forms.json
+ diagram_logic_form_path = ../diagram_parser/diagram_logic_forms.json
+           use_annotated = False
+            predict_path = ../theorem_predict/results/test/pred_seqs_test_gemini.json
+             start_index = 2401
+               end_index = 3001
+              time_limit = 150
+             num_threads = 20
+               low_first = True
+              step_limit = 100
+              debug_mode = False
+            enable_round = False
+          enable_predict = True
+
+{'pid': 2401, 'target': ['Area', 'A', 'B', 'C'], 'guess': 60.0, 'correctness': 'yes', 'steps': 0, 'step_lst': [], 'time': 3.63}
+{'pid': 2402, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 3.2}
+{'pid': 2403, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 2.69}
+{'pid': 2404, 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 24.95}
+
+Solved list:  [2401]
+Solved and correct list:  [2401]
+Solved but wrong list:  []
+Unsolved list:  [2402, 2403, 2404]
+
+num_solved: 1 (25.00%)
+num_solved_correct: 1 (25.00%)
+num_solved_wrong: 0 (0.00%)
+num_guessed_correct: 1.75 (43.75%)
+
+Average steps for all problems: 0.00
+Average steps for solved problems: 0.00
+Average time for all problems: 34.47 seconds
+Average time for solved problems: 3.63 seconds
+Real total time: 33 seconds

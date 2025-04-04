@@ -1,0 +1,398 @@
+{
+  "2401": {
+    "text_logic_forms": [
+      "Find(AreaOf(Shape($)))"
+    ],
+    "output_text": "[Find(AreaOf(Shape($)))].",
+    "success": true
+  },
+  "2402": {
+    "text_logic_forms": [
+      "Equals(RadiusOf(Circle(O)),13)",
+      "Equals(Line(O,B),Radius)",
+      "IsChordOf(Line(C,D),Circle($))",
+      "Perpendicular(Line(O,B),Line(C,D))",
+      "Equals(Line(C,D),24)",
+      "Find(LengthOf(Line(O,X)))"
+    ],
+    "output_text": "[Equals(RadiusOf(Circle(O)),13)] [Equals(Line(O,B),Radius)] [IsChordOf(Line(C,D),Circle($))]. [Perpendicular(Line(O,B),Line(C,D))]. [Equals(Line(C,D),24)] [Find(LengthOf(Line(O,X)))].",
+    "success": true
+  },
+  "2403": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)]. Round to nearest tenth.",
+    "success": true
+  },
+  "2404": {
+    "text_logic_forms": [
+      "Find(MeasureOf(Angle(C,A,M)))"
+    ],
+    "output_text": "[Find(MeasureOf(Angle(C,A,M)))].",
+    "success": true
+  },
+  "2405": {
+    "text_logic_forms": [
+      "Angle(A,B,C)",
+      "Parallel(Line(l),Line(m))",
+      "IntersectAt(Line(l),Line(m),Point(B))",
+      "Find(MeasureOf(Angle(A,B,C)))"
+    ],
+    "output_text": ", [Angle(A,B,C)]. [Parallel(Line(l),Line(m))]. [IntersectAt(Line(l),Line(m),Point(B))]. [Find(MeasureOf(Angle(A,B,C)))]?",
+    "success": true
+  },
+  "2406": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)].",
+    "success": true
+  },
+  "2407": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)].",
+    "success": true
+  },
+  "2408": {
+    "text_logic_forms": [
+      "Equals(LengthOf(Line(X,N)),6)",
+      "Equals(LengthOf(Line(X,M)),2)",
+      "Equals(LengthOf(Line(X,Y)),10)",
+      "Find(LengthOf(Line(N,Z)))"
+    ],
+    "output_text": "If [Equals(LengthOf(Line(X,N)),6)] [Equals(LengthOf(Line(X,M)),2)] and [Equals(LengthOf(Line(X,Y)),10)] [Find(LengthOf(Line(N,Z)))].",
+    "success": true
+  },
+  "2409": {
+    "text_logic_forms": [
+      "Find(y)"
+    ],
+    "output_text": "[Find(y)].",
+    "success": true
+  },
+  "2410": {
+    "text_logic_forms": [
+      "Equals(LengthOf(Line(A,C)),x-3)",
+      "Equals(LengthOf(Line(B,E)),20)",
+      "Equals(LengthOf(Line(A,B)),16)",
+      "Equals(LengthOf(Line(C,D)),x+5)",
+      "Find(LengthOf(Line(C,D)))"
+    ],
+    "output_text": "[Find(LengthOf(Line(C,D)))] if [Equals(LengthOf(Line(A,C)),x-3)] [Equals(LengthOf(Line(B,E)),20)] [Equals(LengthOf(Line(A,B)),16)] and [Equals(LengthOf(Line(C,D)),x+5)].",
+    "success": true
+  },
+  "2411": {
+    "text_logic_forms": [
+      "Find(AreaOf(Shaded(Shape($))))"
+    ],
+    "output_text": "[Find(AreaOf(Shaded(Shape($))))]. Round to nearest tenth.",
+    "success": true
+  },
+  "2412": {
+    "text_logic_forms": [
+      "Rectangle(J,K,L,M)",
+      "Rhombus(M,L,P,R)",
+      "Equals(Angle(J,M,K),Angle(R,M,P))",
+      "Equals(MeasureOf(Angle(J,M,K)),55)",
+      "Equals(MeasureOf(Angle(M,R,P)),70)",
+      "Find(MeasureOf(Angle(K,M,L)))"
+    ],
+    "output_text": " [Rectangle(J,K,L,M)]. [Rhombus(M,L,P,R)]. [Equals(Angle(J,M,K),Angle(R,M,P))], [Equals(MeasureOf(Angle(J,M,K)),55)] and [Equals(MeasureOf(Angle(M,R,P)),70)] [Find(MeasureOf(Angle(K,M,L)))].",
+    "success": true
+  },
+  "2413": {
+    "text_logic_forms": [
+      "Rhombus(A,B,C,D)",
+      "Equals(MeasureOf(Angle(D,A,B)),2)",
+      "MeasureOf(Angle(A,D,C))",
+      "Equals(LengthOf(Line(C,B)),6)",
+      "Find(MeasureOf(Angle(A,C,D)))"
+    ],
+    "output_text": "In [Rhombus(A,B,C,D)], [Equals(MeasureOf(Angle(D,A,B)),2)] [MeasureOf(Angle(A,D,C))] and [Equals(LengthOf(Line(C,B)),6)] [Find(MeasureOf(Angle(A,C,D)))].",
+    "success": true
+  },
+  "2414": {
+    "text_logic_forms": [
+      "Equals(LengthOf(Line(A,B)),12)",
+      "Equals(LengthOf(Line(A,C)),16)",
+      "Equals(LengthOf(Line(E,D)),5)",
+      "Find(LengthOf(Line(A,E)))"
+    ],
+    "output_text": "[Find(LengthOf(Line(A,E)))] if [Equals(LengthOf(Line(A,B)),12)] [Equals(LengthOf(Line(A,C)),16)] and [Equals(LengthOf(Line(E,D)),5)].",
+    "success": true
+  },
+  "2415": {
+    "text_logic_forms": [
+      "Parallelogram(M,N,P,R)",
+      "Find(MeasureOf(Angle(R,N,P)))"
+    ],
+    "output_text": "Use [Parallelogram(M,N,P,R)] to [Find(MeasureOf(Angle(R,N,P)))].",
+    "success": true
+  },
+  "2416": {
+    "text_logic_forms": [
+      "Find(y)"
+    ],
+    "output_text": "[Find(y)].",
+    "success": true
+  },
+  "2417": {
+    "text_logic_forms": [
+      "Circle(P)",
+      "Equals(RadiusOf(Circle(P)),2)",
+      "Find(LengthOf(Arc(R,S)))"
+    ],
+    "output_text": " [Circle(P)], [Equals(RadiusOf(Circle(P)),2)] [Find(LengthOf(Arc(R,S)))]. Round to nearest hundredth.",
+    "success": true
+  },
+  "2418": {
+    "text_logic_forms": [
+      "Parallelogram(A,B,C,D)",
+      "Find(MeasureOf(Angle(A,D,C)))"
+    ],
+    "output_text": "Use [Parallelogram(A,B,C,D)] to [Find(MeasureOf(Angle(A,D,C)))].",
+    "success": true
+  },
+  "2419": {
+    "text_logic_forms": [
+      "InscribedIn(Rectangle($),Circle($))",
+      "Find(CircumferenceOf(Circle($)))"
+    ],
+    "output_text": "[InscribedIn(Rectangle($),Circle($))]. [Find(CircumferenceOf(Circle($)))].",
+    "success": true
+  },
+  "2420": {
+    "text_logic_forms": [
+      "Find(LengthOf(Line(D,E)))"
+    ],
+    "output_text": "[Find(LengthOf(Line(D,E)))].",
+    "success": true
+  },
+  "2421": {
+    "text_logic_forms": [
+      "Find(PerimeterOf(Parallelogram($)))"
+    ],
+    "output_text": "[Find(PerimeterOf(Parallelogram($)))]. Round to nearest tenth if necessary.",
+    "success": true
+  },
+  "2422": {
+    "text_logic_forms": [
+      "Find(LengthOf(Arc(A,B)))"
+    ],
+    "output_text": "[Find(LengthOf(Arc(A,B)))]. Round to nearest hundredth.",
+    "success": true
+  },
+  "2423": {
+    "text_logic_forms": [
+      "Isosceles(Triangle(A,B,C))",
+      "Equals(LengthOf(Line(A,B)),Line(B,C))",
+      "Find(LengthOf(Line(A,B)))"
+    ],
+    "output_text": "[Find(LengthOf(Line(A,B)))] if [Isosceles(Triangle(A,B,C))] with [Equals(LengthOf(Line(A,B)),Line(B,C))].",
+    "success": true
+  },
+  "2424": {
+    "text_logic_forms": [
+      "Find(MeasureOf(Angle(B,G,E)))"
+    ],
+    "output_text": "[Find(MeasureOf(Angle(B,G,E)))].",
+    "success": true
+  },
+  "2425": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)]. Round side measure to nearest tenth.",
+    "success": true
+  },
+  "2426": {
+    "text_logic_forms": [
+      "Similar(Shape($1),Shape($2))",
+      "Find(x)"
+    ],
+    "output_text": "[Similar(Shape($1),Shape($2))], to [Find(x)].",
+    "success": true
+  },
+  "2427": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)].",
+    "success": true
+  },
+  "2428": {
+    "text_logic_forms": [
+      "InscribedIn(Regular(Polygon($)),Circle($))",
+      "Find(MeasureOf(Angle($)))"
+    ],
+    "output_text": ", [InscribedIn(Regular(Polygon($)),Circle($))]. [Find(MeasureOf(Angle($)))].",
+    "success": true
+  },
+  "2429": {
+    "text_logic_forms": [
+      "Find(AreaOf(Parallelogram($)))"
+    ],
+    "output_text": "[Find(AreaOf(Parallelogram($)))]. Round to nearest tenth if necessary.",
+    "success": true
+  },
+  "2430": {
+    "text_logic_forms": [
+      "Find(LengthOf(Line(X,Z)))"
+    ],
+    "output_text": "[Find(LengthOf(Line(X,Z)))].",
+    "success": true
+  },
+  "2431": {
+    "text_logic_forms": [
+      "Regular(Hexagon(U,V,W,X,Y,Z))",
+      "Equals(SideOf(Regular(Hexagon(U,V,W,X,Y,Z))),12)",
+      "Find(LengthOf(Line(W,Y)))"
+    ],
+    "output_text": " [Regular(Hexagon(U,V,W,X,Y,Z))], [Equals(SideOf(Regular(Hexagon(U,V,W,X,Y,Z))),12)] [Find(LengthOf(Line(W,Y)))].",
+    "success": true
+  },
+  "2432": {
+    "text_logic_forms": [
+      "Find(AreaOf(Shape($)))"
+    ],
+    "output_text": "[Find(AreaOf(Shape($)))].",
+    "success": true
+  },
+  "2433": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)].",
+    "success": true
+  },
+  "2434": {
+    "text_logic_forms": [
+      "IsMedianOf(Line(G,H),Quadrilateral(R,S,B,A))",
+      "Find(LengthOf(Line(G,H)))"
+    ],
+    "output_text": "Let [IsMedianOf(Line(G,H),Quadrilateral(R,S,B,A))]. [Find(LengthOf(Line(G,H)))].",
+    "success": true
+  },
+  "2435": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)].",
+    "success": true
+  },
+  "2436": {
+    "text_logic_forms": [
+      "Equals(MeasureOf(Arc(B,C)),30)",
+      "Equals(MeasureOf(Arc(A,D)),20)",
+      "Find(MeasureOf(Angle(2)))"
+    ],
+    "output_text": "[Find(MeasureOf(Angle(2)))] if [Equals(MeasureOf(Arc(B,C)),30)] and [Equals(MeasureOf(Arc(A,D)),20)].",
+    "success": true
+  },
+  "2437": {
+    "text_logic_forms": [
+      "Find(MeasureOf(Angle(V,X,W)))"
+    ],
+    "output_text": "[Find(MeasureOf(Angle(V,X,W)))].",
+    "success": true
+  },
+  "2438": {
+    "text_logic_forms": [
+      "Find(LengthOf(Line(W,R)))"
+    ],
+    "output_text": "[Find(LengthOf(Line(W,R)))].",
+    "success": true
+  },
+  "2439": {
+    "text_logic_forms": [
+      "Find(MeasureOf(Angle(R,S,T)))"
+    ],
+    "output_text": "[Find(MeasureOf(Angle(R,S,T)))].",
+    "success": true
+  },
+  "2440": {
+    "text_logic_forms": [
+      "Similar(Quadrilateral(A,B,C,D),Quadrilateral(A,E,F,G))",
+      "Equals(MeasureOf(Angle(A,G,F)),108)",
+      "Equals(LengthOf(Line(G,F)),14)",
+      "Equals(LengthOf(Line(A,D)),12)",
+      "Equals(LengthOf(Line(D,G)),4.5)",
+      "Equals(LengthOf(Line(E,F)),8)",
+      "Equals(LengthOf(Line(A,B)),26)",
+      "Find(MeasureOf(Angle(A,D,C)))"
+    ],
+    "output_text": "[Similar(Quadrilateral(A,B,C,D),Quadrilateral(A,E,F,G))], [Equals(MeasureOf(Angle(A,G,F)),108)] [Equals(LengthOf(Line(G,F)),14)] [Equals(LengthOf(Line(A,D)),12)] [Equals(LengthOf(Line(D,G)),4.5)] [Equals(LengthOf(Line(E,F)),8)] and [Equals(LengthOf(Line(A,B)),26)] [Find(MeasureOf(Angle(A,D,C)))].",
+    "success": true
+  },
+  "2441": {
+    "text_logic_forms": [
+      "Equals(MeasureOf(Angle(3)),110)",
+      "Equals(MeasureOf(Angle(12)),55)",
+      "Find(MeasureOf(Angle(1)))"
+    ],
+    "output_text": ", [Equals(MeasureOf(Angle(3)),110)] and [Equals(MeasureOf(Angle(12)),55)] [Find(MeasureOf(Angle(1)))].",
+    "success": true
+  },
+  "2442": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)].",
+    "success": true
+  },
+  "2443": {
+    "text_logic_forms": [
+      "Find(MeasureOf(Angle(1)))"
+    ],
+    "output_text": "[Find(MeasureOf(Angle(1)))].",
+    "success": true
+  },
+  "2444": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)]. Round to nearest tenth.",
+    "success": true
+  },
+  "2445": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)].",
+    "success": true
+  },
+  "2446": {
+    "text_logic_forms": [
+      "Equals(LengthOf(Line(M,C)),7)",
+      "Equals(LengthOf(Line(R,M)),4)",
+      "Equals(LengthOf(Line(A,T)),16)",
+      "Find(LengthOf(Line(M,B)))"
+    ],
+    "output_text": "[Equals(LengthOf(Line(M,C)),7)] [Equals(LengthOf(Line(R,M)),4)] and [Equals(LengthOf(Line(A,T)),16)] [Find(LengthOf(Line(M,B)))].",
+    "success": true
+  },
+  "2447": {
+    "text_logic_forms": [
+      "Find(y)"
+    ],
+    "output_text": "[Find(y)].",
+    "success": true
+  },
+  "2448": {
+    "text_logic_forms": [
+      "Find(y)"
+    ],
+    "output_text": "[Find(y)].",
+    "success": true
+  },
+  "2449": {
+    "text_logic_forms": [
+      "Find(MeasureOf(Angle(W)))"
+    ],
+    "output_text": "[Find(MeasureOf(Angle(W)))].",
+    "success": true
+  }
+}
